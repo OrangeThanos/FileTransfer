@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+
+import "google/protobuf/empty.proto";
+import "protos/Files.proto";
+import "protos/User.proto";
+
+enum TransferError {
+    SRC_DISCONNECT = 0;
+    SRC_FILEMISSING = 1;
+    SRC_ACCESSDENIED = 2;
+
+    DST_DISCONNECT = 100;
+    DST_UNEXPERROR = 101;
+    DST_ACCESSDENIED = 102;
+}
+
+message FileTransferRequest {
+    string SrcFile = 1;
+}
+
+message FileRecieveRequest {
+    string DstPath = 1;
+    File fileInfo = 2;
+}
+
+message FileTransferPart {
+    bytes Part = 1;
+}
+
+message FileTransferProgress{
+    uint64 CurrentProgress = 1;
+    File fileInfo = 2;
+}
+
+message FileTransferRequestInit {
+    string SrcFile = 1;
+    UserInfo SrcUser = 2;
+    string DstPath = 3;
+    UserInfo DstUser = 4;
+}
+
+message FileTransferError {
+    TransferError reason = 1;
+}
+
+service FIleTransfer {
+    rpc FileTransferProcessUpload(stream FileTransferPart) returns(stream google.protobuf.Empty) {}
+    rpc FileTransferProcessDownload(stream google.protobuf.Empty) returns(stream FileTransferPart) {}
+    rpc FIleTransferProgress(FileTransferRequestInit) returns(stream FileTransferProgress) {} 
+    rpc FileTransferListener(stream google.protobuf.Empty) returns(stream FileTransferRequestInit) {} 
+}

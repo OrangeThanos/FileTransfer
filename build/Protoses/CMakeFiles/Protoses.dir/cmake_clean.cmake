@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Protoses.dir/protos/Files.grpc.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Files.grpc.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/Files.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Files.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/Person.grpc.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Person.grpc.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/Person.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Person.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/Transfer.grpc.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Transfer.grpc.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/Transfer.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/Transfer.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/User.grpc.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/User.grpc.pb.cc.o.d"
+  "CMakeFiles/Protoses.dir/protos/User.pb.cc.o"
+  "CMakeFiles/Protoses.dir/protos/User.pb.cc.o.d"
+  "libProtoses.a"
+  "libProtoses.pdb"
+  "protos/Files.grpc.pb.cc"
+  "protos/Files.grpc.pb.h"
+  "protos/Files.pb.cc"
+  "protos/Files.pb.h"
+  "protos/Person.grpc.pb.cc"
+  "protos/Person.grpc.pb.h"
+  "protos/Person.pb.cc"
+  "protos/Person.pb.h"
+  "protos/Transfer.grpc.pb.cc"
+  "protos/Transfer.grpc.pb.h"
+  "protos/Transfer.pb.cc"
+  "protos/Transfer.pb.h"
+  "protos/User.grpc.pb.cc"
+  "protos/User.grpc.pb.h"
+  "protos/User.pb.cc"
+  "protos/User.pb.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Protoses.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

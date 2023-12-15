@@ -1,0 +1,1 @@
+. "/home/stanislau/filetransfer/conanrunenv-release-x86_64.sh"

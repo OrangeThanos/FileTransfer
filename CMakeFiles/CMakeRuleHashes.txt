@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+8ed2aed7c966d00f13a41757404aca63 Protoses/protos/Files.grpc.pb.h
+157cd9ede0de91530f1953dbe6a42327 Protoses/protos/Files.pb.h
+06f87838b741689265a6be74bd28a122 Protoses/protos/Person.grpc.pb.h
+cbf731bc200a047627760c2dd3ac2d9e Protoses/protos/Person.pb.h
+1be3ead294625d40f475a772b14e9bc9 Protoses/protos/Transfer.grpc.pb.h
+52c6cd8c4d99204b652d5e23076341ca Protoses/protos/Transfer.pb.h
+51b9ab846281e21360968a91458b4aa0 Protoses/protos/User.grpc.pb.h
+c18e8aa69a5bafd8772b59d4a2c0feb8 Protoses/protos/User.pb.h

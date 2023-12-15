@@ -1,0 +1,11 @@
+/home/stanislau/filetransfer/build/CMakeFiles/edit_cache.dir
+/home/stanislau/filetransfer/build/CMakeFiles/rebuild_cache.dir
+/home/stanislau/filetransfer/build/Protoses/CMakeFiles/Protoses.dir
+/home/stanislau/filetransfer/build/Protoses/CMakeFiles/edit_cache.dir
+/home/stanislau/filetransfer/build/Protoses/CMakeFiles/rebuild_cache.dir
+/home/stanislau/filetransfer/build/Server/CMakeFiles/Server.dir
+/home/stanislau/filetransfer/build/Server/CMakeFiles/edit_cache.dir
+/home/stanislau/filetransfer/build/Server/CMakeFiles/rebuild_cache.dir
+/home/stanislau/filetransfer/build/Client/CMakeFiles/Client.dir
+/home/stanislau/filetransfer/build/Client/CMakeFiles/edit_cache.dir
+/home/stanislau/filetransfer/build/Client/CMakeFiles/rebuild_cache.dir

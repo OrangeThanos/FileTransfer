@@ -1,0 +1,1 @@
+. "/home/stanislau/filetransfer/deactivate_conanrunenv-release-x86_64.sh"
